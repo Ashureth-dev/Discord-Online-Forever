@@ -21,4 +21,4 @@ client.on('error', (err) => {
   console.error(err);
 });
 
-client.login('token');
+client.login(process.env.token);
